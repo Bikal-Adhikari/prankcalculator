@@ -1,0 +1,84 @@
+.wrapper {
+  width: 80%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  grid-template-areas:
+    "first first first first"
+    "second third fourth fifth"
+    "sixth seven eight nine"
+    "ten ele twe thi"
+    "four fiv six sevent"
+    "eig nin twen twen";
+  gap: 3rem;
+  background: grey;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+.wrapper > div {
+  background-color: green;
+}
+.first {
+  grid-area: first;
+  /* padding: 2rem; */
+  background: yellow;
+}
+.second {
+  grid-area: second;
+}
+.third {
+  grid-area: third;
+}
+.fourth {
+  grid-area: fourth;
+}
+.fifth {
+  grid-area: fifth;
+}
+.sixth {
+  grid-area: sixth;
+}
+.seven {
+  grid-area: seven;
+}
+.eight {
+  grid-area: eight;
+}
+.nine {
+  grid-area: nine;
+}
+.ten {
+  grid-area: ten;
+}
+.ele {
+  grid-area: ele;
+}
+.twe {
+  grid-area: twe;
+}
+.thi {
+  grid-area: thi;
+}
+.four {
+  grid-area: four;
+}
+.fiv {
+  grid-area: fiv;
+}
+.six {
+  grid-area: six;
+}
+.sevent {
+  grid-area: sevent;
+}
+.eig {
+  grid-area: eig;
+}
+.nin {
+  grid-area: nin;
+}
+.twen {
+  grid-area: twen;
+}
